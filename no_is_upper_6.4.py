@@ -8,11 +8,10 @@
 
 def custom_isupper(s):
     for char in s:
-        if 'a' <= char <= 'z':  # Check if character is lowercase
+        if 'a' <= char <= 'z':
             return False
-    return True  # Return True if no lowercase letters found
+    return True  
 
-# Example usage
 input_string = input("Enter a string: ")
 output_result = custom_isupper(input_string)
 print(f"Is the string uppercase? {output_result}")
