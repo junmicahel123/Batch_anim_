@@ -7,11 +7,11 @@
 # Return the substring starting from the first non-space character.
 # Test the function with an example input and print the results.
 
-def custom_lstrip(s):
+def custom_lstrip(string):
     index = 0
-    while index < len(s) and s[index] == ' ':
+    while index < len(string) and string[index] == ' ':
         index += 1
-    return s[index:]
+    return string[index:]
 
 
 input_string = input("word?:")
