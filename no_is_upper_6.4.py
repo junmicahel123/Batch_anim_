@@ -6,8 +6,8 @@
 #  If no lowercase letters are found, return True.
 
 
-def custom_isupper(s):
-    for char in s:
+def custom_isupper(string):
+    for char in string:
         if 'a' <= char <= 'z':
             return False
     return True  
