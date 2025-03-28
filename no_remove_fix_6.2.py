@@ -7,10 +7,10 @@
 # Otherwise, return the original string.
 
 
-def custom_removeprefix(s, prefix):
-    if s.startswith(prefix):
-        return s[len(prefix):]
-    return s
+def custom_removeprefix(string, prefix):
+    if string.startswith(prefix):
+        return string[len(prefix):]
+    return string
 
 input_string = input("Enter a string: ")
 prefix = input("Enter the prefix to remove: ")
