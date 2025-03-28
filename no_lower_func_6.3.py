@@ -7,9 +7,9 @@
 # Append the converted character to the result string.
 # Return the modified string.
 
-def custom_lower(s):
+def custom_lower(string):
     result = ""
-    for char in s:
+    for char in string:
         if 'A' <= char <= 'Z': 
             result += chr(ord(char) + 32) 
             result += char 
