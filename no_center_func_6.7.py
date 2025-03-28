@@ -15,7 +15,6 @@ def custom_center(string, width):
     right_padding = total_padding - left_padding  
     return ' ' * left_padding + string + ' ' * right_padding
 
-# Example usage
 input_string = input("Enter a string: ")
 width = int(input("Enter the total width: "))
 output_string = custom_center(input_string, width)
