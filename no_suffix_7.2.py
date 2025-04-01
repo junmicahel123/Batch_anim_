@@ -17,4 +17,4 @@ text = input("Enter the string: ")
 suffix = input("Enter the suffix to remove: ")
 
 result = custom_removesuffix(text, suffix)
-print("Result:", result)
+print("Result:", result) 
